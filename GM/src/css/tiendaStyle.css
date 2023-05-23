@@ -39,6 +39,8 @@
 .mostrador .fila .item img{
     width: 100%;
     margin: 30px 0;
+    height: 200px;
+    border-radius: 15px;
 }
 .mostrador .fila .item .descripcion{
     color: #707070;
@@ -75,6 +77,7 @@
     display: block;
     margin: 30px auto;
     width: 80%;
+    height: 100%;
 }
 .info h2{
     color: #707070;

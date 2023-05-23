@@ -131,7 +131,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(0, 0, 0, 0.021);
+	color: rgba(255, 255, 255, 0.021);
 	font-size: 8rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -152,7 +152,8 @@ p {
 	top: 100%;
 	left: 0;
 	width: 100%;
-	background-color: rgb(31, 31, 31);
+	background-color: rgba(0, 0, 0, 0.24);
+	text-align: center;
   }
   
   #header .nav-list ul li:hover .submenu {
