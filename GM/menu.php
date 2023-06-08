@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">ZAPATOS RODRIGUEZ</a>
+    <a class="navbar-brand" href="#">
+      <img src="src/img//logo-globomarket-fondo.pn" alt="">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,13 +13,16 @@
         ?>
 
         <li class="nav-item">
-          <a class="nav-link" href="?accion=ofertas">Ofertas</a>
+          <a class="nav-link" href="?accion=ofertas">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="?accion=somos">Quienes somos</a>
+          <a class="nav-link" href="?accion=somos">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="?accion=ingresar">Ingresar</a>
+          <a class="nav-link" href="?accion=ingresar">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="?accion=ingresar">Contactos</a>
         </li>
       </ul>
     </div>
