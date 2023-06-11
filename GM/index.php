@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src\css\style.css">
+    <link rel="icon" href="http://servidor211.com/212/globo_market/src/img/logo-globomarket-fondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://servidor211.com/212/globo_market/src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Globo Market</title>
@@ -33,7 +34,7 @@
             <div class="nav-bar">
                 <div class="brand">
                     <a href="#hero" class="brand">
-                        <img src="src/img//logo-globomarket-fondo.png" alt="Logo de Globo Market">
+                        <img src="http://servidor211.com/212/globo_market/src/img/logo-globomarket-fondo.png" alt="Logo de Globo Market">
                     </a>
                 </div>
                 <div class="nav-list">
@@ -41,13 +42,9 @@
                     <ul>
                         <li><a href="#hero" data-after="Inicio">Inicio</a></li>
                         <li><a href="#services" data-after="Servicios">Servicios</a>
-                            <ul class="submenu">
-                                <li><a href="src/php/index.php">Catálogo</a></li>
-                                <li><a href="tienda.html">Productos</a></li>
-                            </ul>
-                        </li>
                         <li><a href="#projects" data-after="Galería">Galería</a></li>
                         <li><a href="#about" data-after="Nosotros">Nosotros</a></li>
+                        <li><a href="http://servidor211.com/212/globo_market/tienda.php" data-after="Productos">Productos</a></li>
                         <li><a href="#contact" data-after="Contacto">Contacto</a></li>
                     </ul>
                 </div>
@@ -86,14 +83,14 @@
             </div>
             <div class="service-bottom">
                 <div class="service-item">
-                    <div class="icon"><img src="src/img//globoNormales.jpg" /></div>
+                    <div class="icon"><img src="http://servidor211.com/212/globo_market/src/img/globoNormales.jpg" /></div>
                     <h2>Globos Normales</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
                         sed
                         architecto placeat beatae tenetur officia quod</p>
                 </div>
                 <div class="service-item">
-                    <div class="icon"><img src="src/img//globoMario.jpg" /></div>
+                    <div class="icon"><img src="http://servidor211.com/212/globo_market/src/img/globoMario.jpg" /></div>
                     <h2>Globos Personalizados</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
                         sed
@@ -107,7 +104,7 @@
                         architecto placeat beatae tenetur officia quod</p>
                 </div>
                 <div class="service-item">
-                    <div class="icon"><img src="src/img//fondo.png" /></div>
+                    <div class="icon"><img src="http://servidor211.com/212/globo_market/src/img/fondo.png" /></div>
                     <h2>Servicio de arreglo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
                         sed
@@ -151,7 +148,7 @@
                             harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                     </div>
                     <div class="project-img">
-                        <img src="src/img//fongys.jpg" alt="img">
+                        <img src="http://servidor211.com/212/globo_market/src/img//fongys.jpg" alt="img">
                     </div>
                 </div>
                 <div class="project-item">
@@ -165,7 +162,7 @@
                             harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                     </div>
                     <div class="project-img">
-                        <img src="src/img//fondo.png" alt="img">
+                        <img src="http://servidor211.com/212/globo_market/src/img//fondo.png" alt="img">
                     </div>
                 </div>
                 <div class="project-item">
@@ -179,7 +176,7 @@
                             harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                     </div>
                     <div class="project-img">
-                        <img src="src/img//50.jpg" alt="img">
+                        <img src="http://servidor211.com/212/globo_market/src/img//50.jpg" alt="img">
                     </div>
                 </div>
                 <div class="project-item">
@@ -193,7 +190,7 @@
                             harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
                     </div>
                     <div class="project-img">
-                        <img src="src/img//decora.jpg" alt="img">
+                        <img src="http://servidor211.com/212/globo_market/src/img//decora.jpg" alt="img">
                     </div>
                 </div>
             </div>
@@ -206,7 +203,7 @@
         <div class="about container">
             <div class="col-left">
                 <div class="about-img">
-                    <img src="src/img//logo-globomarket-fondo.png" alt="logo">
+                    <img src="http://servidor211.com/212/globo_market/src/img//logo-globomarket-fondo.png" alt="logo">
                 </div>
             </div>
             <div class="col-right">
@@ -288,7 +285,7 @@
                 </div>
                 <div class="social-item">
                     <a href="https://twitter.com/globomarket?lang=es" target="_blank"><img
-                            src="src/img//iconTwitter.png" /></a>
+                            src="http://servidor211.com/212/globo_market/src/img//iconTwitter.png" /></a>
                 </div>
                 <div class="social-item">
                     <a href="https://www.youtube.com/@GloboMarket/videos" target="_blank"><img

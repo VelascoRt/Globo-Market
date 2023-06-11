@@ -148,16 +148,13 @@ p {
 /* Submenu */
 #header .nav-list ul .submenu {
 	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.24);
+	position: relative;
 	text-align: center;
   }
   
   #header .nav-list ul li:hover .submenu {
 	display: block;
+	position: relative;
   }
   
   #header .nav-list ul .submenu li {
@@ -165,7 +162,6 @@ p {
   }
   
   #header .nav-list ul .submenu li a {
-	display: block;
 	padding: 10px 20px;
 	color: #FFFFFFff;
 	text-decoration: none;
