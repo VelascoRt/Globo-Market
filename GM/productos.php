@@ -1,25 +1,21 @@
 <div class="container">
         <div class="row">
             <?php
-            
-                if(!$categoria)
-                    $consulta  = "SELECT * FROM tb_productos";
-                else
-                    $consulta  = "SELECT * FROM tb_productos 
-                                WHERE fk_clave_cat = ".$categoria;
-
-                $query = $conn->prepare($consulta);
+                $consulta  = "SELECT * FROM tb_productos";
+                
+                $query = $conexion->prepare($consulta);
                 $query->execute();
                 while($registro = $query->fetch())
                 {
             ?>
-                <div class="col-12 col-md-4 text-center">
-                    <div class="card">
-                        <img src="<?=$registro["txt_foto_pro"]?>" alt="">
+                <div class="mh-50-d-inline-flex-align-bottom-justify-content-col-9 col-md-4 text-center" id="contenido">
+                    <div class="card shadow p-3 mb-5 bg-body rounded hover-overlay d-inline-block mh-25">
+                        <div class="bg-image hover-zoom ">
+                            <img src="data:image/jpg;base64, <?php echo base64_encode($registro['txt_foto_pro']); ?>" class="w-100 mh-50" />
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title"><?=$registro["txt_nombre_pro"]?></h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="?accion=borrarProducto&id=<?=$registro["pk_clave_pro"]?>" class="btn btn-danger" onclick="return confirm('Estás seguro que quieres borrar este registro?');">Borrar</a>
+                            <p class="card-text"><?=$registro["txt_descripcion_pro"]?></p>
                         </div>
                     </div>
                 </div>

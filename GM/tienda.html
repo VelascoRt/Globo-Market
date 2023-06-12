@@ -46,21 +46,6 @@
 
   <section class="contenido">
     <div class="mostrador" id="mostrador">
-      <?php
-        include("conexion.php");
-            $query = "SELECT * FROM tb_producto";
-            $resultado = $conexion->query($query);
-            while($row = $resultado->fetch_assoc()) {
-                ?>
-                <div>
-                    <img src="data:image/jpg;base64, <?php echo base64_encode($row['txt_foto_pro']); ?>">
-                    <h4><?php echo $row['txt_nombre_pro']; ?></h4>
-                    <p><?php echo $row['num_precio_pro']; ?> </p>
-                </div>
-
-            <?php    
-            }
-            ?>
   </div>
   </section>
 
